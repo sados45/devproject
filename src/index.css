@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  button {
+    background-color: #ff0000;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1 1 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #1e90ff; /* Daha canlı bir mavi */
+    transform: scale(1.05); /* Hafif büyüme efekti */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Tıklama sırasında küçülme efekti */
+  }
